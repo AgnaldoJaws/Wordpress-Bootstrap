@@ -1,0 +1,122 @@
+body {
+	background-color: #eeeeee;
+	background-size: 100% 675px;
+	background-repeat: no-repeat;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+
+body>#tecnica {
+	margin-top: 500px;
+	height: 700px
+}
+
+body>.posicao {
+	margin-top: 45px;
+	color: red
+}
+
+body>.logo {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-image: url(../img/logo2.png);
+	background-repeat: no-repeat;
+	widht: 100px;
+	height: 70px;
+	margin-left: 5%;
+	margin-top: -20px
+}
+
+@media ( min-width : 992px) {
+	body>.logo {
+		float: left;
+		width: 25%
+	}
+}
+
+body>#navegacao {
+	background: #5a0000
+}
+
+body>#navegacao>.container>#navegacao__content {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px
+}
+
+@media ( min-width : 992px) {
+	body>#navegacao>.container>#navegacao__content {
+		float: left;
+		width: 100%
+	}
+}
+
+body>#navegacao>.container>#navegacao__content .navbar {
+	border-radius: 0;
+	background: #5a0000;
+	box-shadow: none;
+	border: none;
+	margin-bottom: 0
+}
+
+body>#navegacao>.container>#navegacao__content .navbar .navbar-collapse
+	{
+	border: none
+}
+
+body>#navegacao>.container>#navegacao__content .navbar .navbar-collapse>ul.navbar-nav>li.active>a
+	{
+	background: #771c1c
+}
+
+body>#navegacao>.container>#navegacao__content .navbar .navbar-collapse>ul.navbar-nav>li a
+	{
+	color: #fff;
+	font: bold 16px "Oxygen"
+}
+
+body>#navegacao>.container>#navegacao__content .navbar .navbar-collapse>ul.navbar-nav>li a:hover
+	{
+	background: #771c1c
+}
+
+#slider {
+	margin-bottom: 30px
+}
+
+#slider .item img {
+	display: block;
+	width: 100%;
+	height: auto
+}
+
+a {
+	outiline: none
+}
+
+a img {
+	border: none
+}
+
+.container>.contant>h2.heading {
+	margin: 0 0 30px;
+	font: 18px "Oxygen";
+	color: #750adf;
+	position: relative;
+	line-height: 30px;
+	text-indent: 14px
+}
+
+.container>.contant>h2.heading>span {
+	display: inline-block;
+	widht: 8px;
+	height: 30px;
+	background: #c72327;
+	position: absolute;
+	top: 0;
+	left: 0
+}
+/*# sourceMappingURL=style.css.map */

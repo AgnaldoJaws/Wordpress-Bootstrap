@@ -1,0 +1,77 @@
+body {
+
+ background-color:#eeeeee;
+	background-size: 100% 675px;
+	background-repeat: no-repeat;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	> #tecnica{
+		margin-top:500px;
+		height:700px;
+		
+	
+	}
+	> .posicao {
+	margin-top:45px;
+	color:red;
+	}
+	
+> .logo {
+	@include make-md-column(3);
+	background-image: url(../img/logo2.png);
+	background-repeat: no-repeat;
+	widht:100px;
+	height:70px;
+	margin-left:5%;
+	margin-top:-20px;
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	> #navegacao{
+	background:#5a0000;
+		> .container {
+			> #navegacao__content {
+			@include make-md-column(12);
+			.navbar {
+				border-radius: 0;
+				background:#5a0000;
+				box-shadow:none;
+				border:none;
+				margin-bottom:0;
+				.navbar-collapse{
+					border:none;
+					>ul.navbar-nav{
+						> li{
+							&.active{
+								> a{
+								   background:#771c1c;									
+						}
+						}
+						a{
+							color:#fff;
+							font: bold 16px $font_main;
+							&:hover{
+								background:#771c1c;
+							}
+						}
+				}
+				
+				}
+				}
+			
+			}
+			}
+		
+		}
+	
+	
+	}	
+	
+}

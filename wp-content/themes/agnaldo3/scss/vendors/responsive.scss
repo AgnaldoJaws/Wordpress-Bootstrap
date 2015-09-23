@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px){
+
+body {
+
+	
+	> header {	
+		> .content{	 	
+	 		> .logo-container {	 		
+	 		> .logo-container__logo {	
+	 		margin-left:10%;
+	 		margin-right:10%;
+	 		width:70%; 
+	 			
+	 		
+			}
+		}
+	}
+	}
+ }
+
+}
+
+
+@media screen and (min-width: 391px) and (max-width:1500px) {
+	
+	body {
+	
+		
+	> header {	
+		> .content{	 	
+	 		> .logo-container {	 		
+	 		> .logo-container__logo {	
+	 		
+	 		
+	 		
+			}
+		}
+	}
+	}
+ }
+
+
+	
+	}
+	
+	
+	@media screen and (min-width: 1px) and (max-width: 390px) {
+	
+	body {
+	
+ 	}
+
+
+	
+	}
+	
