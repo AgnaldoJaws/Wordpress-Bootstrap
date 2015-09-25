@@ -1,24 +1,21 @@
 body {
 background-image: url(../img/fundo.jpeg);
-> .logo{
-		background-repeat: no-repeat;
-		background-image: url(../img/logo.jpeg);
-		width:100%;
- height:50px;
- background-color:red;
-}
+background-repeat: no-repeat;
+margin-top:-100px;
+
  > .abc{
  
  width:100%;
  height:290px;
- margin-top:96px;
+ margin-top:90px;
+ 
  
  
  }
 
 
  > .row{ 
- 	
+ 	margin-left:3px;
  	#row_sidebar{
  	
  		> .panel{
@@ -94,6 +91,20 @@ background-image: url(../img/fundo.jpeg);
 	
 		
 			.navbar {
+			
+			> .container-fluid {
+			
+			> .logo{
+		background-repeat: no-repeat;
+		background-image: url(../img/logo2.png);
+		width:250px;
+         height:60px;
+       margin-left:-5px;
+         margin-top:10px;
+ 
+}
+			
+			}
 			width:100%;
 			
 				border-radius: 0;
@@ -103,9 +114,11 @@ background-image: url(../img/fundo.jpeg);
 				border:none;
 				margin-bottom:0;
 				.navbar-collapse{
+				margin-left:250px;
 					border:none;
 					>ul.navbar-nav{
 						> li{
+						margin-top:-44px;
 							&.active{
 								> a{
 								color:black;
@@ -113,6 +126,7 @@ background-image: url(../img/fundo.jpeg);
 						}
 						}
 						a{
+						margin-top:11px;
 							color:#fff;
 							font: bold 16px $font_main;
 							&:hover{
@@ -134,3 +148,16 @@ background-image: url(../img/fundo.jpeg);
 	}	
 	
 }
+
+/*DESKTOP*/
+@media screen and (min-width: 1025px) and (max-width:1500px) {
+	p {
+	color:red;
+	
+	}
+	
+	}
+	
+
+
+

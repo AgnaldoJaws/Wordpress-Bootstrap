@@ -17,16 +17,15 @@
 					</div>
 					
 					<div class="imagem">
-					<?php the_post_thumbnail(array(250,250))?>
+					<a href="<?php the_permalink(); ?>" ><?php the_post_thumbnail(array(250,250))?></a>
 					</div>
 					
 					
 					<div class="texto">
-						<?php the_excerpt();?>	
+					<a href="<?php the_permalink(); ?>" >	<?php the_excerpt();?>	</a>
 					</div>
 						
-						Publicado por <?php the_author();?> em <?php the_time('d/m/y');?>
-							ás <?php the_time('g:i a');?> <hr color="#cccccc" />	
+						
 				     </div>
 				</div>
 				

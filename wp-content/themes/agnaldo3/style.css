@@ -1,5 +1,5 @@
 @import url('css/style.css');
-
+@import url('css/vendors/responsive.css');
 .sidebar .widgets {
 	width: 210px;
 	background-color: #EFEFEF;
